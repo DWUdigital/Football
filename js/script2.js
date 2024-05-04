@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Perform your email sending logic here
 
         // Redirect the user to mail.html after the email has been sent
-        window.location.href = "index.html";
+        window.location.href = "mail.html";
     };
 
     // Add event listener for form submission
