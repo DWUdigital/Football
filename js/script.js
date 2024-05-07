@@ -216,3 +216,14 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location.href = "contact.html";
   });
 });
+document.addEventListener('DOMContentLoaded', function() {
+  var video = document.querySelector('.background-video');
+  video.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+      if (video.paused) {
+          video.play();
+      } else {
+          video.pause();
+      }
+  });
+});
