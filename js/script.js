@@ -71,9 +71,9 @@ var testTrainingText = '<p>I testträningen kommer vi kolla på spelarens kvalit
 var pricingText = '<p>Fotbollsklubbsmedlemskap:</p>' +
                   '<ul>' +
                   '<li><strong>Testträning:</strong> Avgift: 200 kr</li>' +
-                  '<li><strong>Medlemskap 1:</strong> Avgift: 399 kr per månad</li>' +
+                  '<li><strong>Medlemskap 1:</strong> Avgift: 399 kr </li>' +
                   '<li><strong>Medlemskap 2:</strong> Avgift: 1499 kr per månad (minst 3 månaders åtagande)</li>' +
-                  '<li><strong>Medlemskap 3:</strong> Avgift: 3499 kr per månad</li>' +
+                  '<li><strong>Medlemskap 3:</strong> Avgift: 3499 kr </li>' +
                   '</ul>';
 
 var cupsText = '<p>Just nu hålls inga cup-evenemang</p>';
