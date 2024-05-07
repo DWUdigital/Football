@@ -244,7 +244,14 @@ body {
 p {
   line-height: 1.5;
 }
+video::-webkit-media-controls {
+  display: none !important;
+}
 
+/* Prevent iOS Safari from automatically displaying controls on hover */
+video {
+  pointer-events: none;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
