@@ -206,3 +206,13 @@ function resize() {
   windowWidth = window.innerWidth;
   windowHeight = window.innerHeight;
 }
+document.addEventListener("DOMContentLoaded", function() {
+  // Get the "Booka nu" button element
+  var bookNowButton = document.getElementById("book-now-btn");
+
+  // Add click event listener to the button
+  bookNowButton.addEventListener("click", function() {
+      // Redirect the user to the contact.html page
+      window.location.href = "contact.html";
+  });
+});
