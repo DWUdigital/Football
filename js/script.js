@@ -218,12 +218,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener('DOMContentLoaded', function() {
   var video = document.querySelector('.background-video');
-  video.addEventListener('touchstart', function(e) {
-      e.preventDefault();
-      if (video.paused) {
-          video.play();
-      } else {
-          video.pause();
-      }
-  });
+  video.controls = false;
 });
