@@ -318,17 +318,21 @@ header .navbar {
 
 .card {
   background-color: #fff;
-  width: 90%; /* Adjusted to make it responsive */
-  max-width: 300px; /* Added max-width for larger screens */
-  position: relative; /* Changed to relative for responsiveness */
+  height: 400px;
+  width: 90%;
+  max-width: 300px;
+  position: relative;
   margin: auto;
-  top: 0;
+  top: 150px; /* Adjust this value as needed */
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
   overflow: hidden;
+  margin-bottom: 200px;
 }
+
+
 
 .card:hover {
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
